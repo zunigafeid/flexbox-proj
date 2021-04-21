@@ -1,0 +1,261 @@
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/01/94/68/43/360_F_194684328_Beestu1hiukZGPUS8Oh8NUbir1jzbBBc.jpg); 
+    font-family: 'Orelega One', cursive;
+    font-weight: 400px;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    
+ }
+
+ * {
+     text-decoration: none;
+     list-style: none;
+ }
+ 
+@media (max-width: 1250px)  {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header nav ul {
+        display: inline-block;
+       
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+       /* display: none;*/
+       display: inline-block;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        clear: left;
+        width: fit-content;
+        display: relative;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .navbar-links li {
+        text-align: center;
+        padding: 0;
+    }
+
+    .navbar-links li a {
+        padding: 80px;
+        
+    }
+
+    .navbar-links ul li a {
+        font-size: 20px;
+        
+        
+    }
+
+    .section {
+        position: relative;
+        top: 150px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .section .mission {
+        margin: auto;
+        width: 50%;
+        min-width: 400px;
+    }
+
+    .design-container .box{
+        margin: 0;
+        width: 100%;
+        position: relative;
+        right: 70px;
+        justify-content: center;
+        display: block;
+    }
+
+    .box img {
+        min-width: 10px;
+        min-height: 5px;
+        height: auto;
+        
+    }
+
+    .team img{
+        height: 300px;
+       padding-top: 0;
+       margin-top: 0;
+       flex-wrap: wrap;
+       margin: 0 30px;
+       padding-bottom: 50px;
+    }
+    
+}
+
+/* DESKTOP VERSION*/
+
+ .container {
+     width: 100%;
+     margin: 0;
+     height: 100px;
+ }
+ 
+ 
+
+ .container nav {
+     padding-bottom: 500px;
+ }
+ 
+ .container .logo {
+     float: left;
+     height: 100px;
+     margin: 0;
+ }
+ 
+ 
+ header nav ul {
+   display: block;
+   margin: 30px auto;
+   width: fit-content;
+  padding: 0;
+ }
+ 
+ header nav ul li {
+ display: inline-block;
+ 
+ list-style: none;
+ padding: 0 50px;
+ }
+ 
+ header nav ul li a {
+   font-size: 35px;
+   color: white;
+   line-height: 100px;
+   text-decoration: none;
+   font-weight: bold;
+
+   
+   
+ }
+ 
+ 
+ 
+ /*section*/
+ 
+ .section {
+         width: 86%;
+         text-align: center;
+         text-decoration: none; 
+         margin: auto;
+         
+ }
+ 
+ 
+ /*
+ section h2 {
+     font-size: 50px;
+     font-weight: bold;
+ } */
+ 
+
+
+ p {
+     font-size: 25px;
+     color: lavenderblush;
+     padding: 16px;
+ }
+ 
+ .design-text,
+ .mission h2{
+   color: aqua;
+   
+ }
+ 
+ .mission h2{
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     padding: 90px 0 0 0;
+     font-size: 50px;
+     font-weight: bold;
+ }
+ 
+ .design-container {
+     display: inline-flex;
+     max-width: 1000px;
+     height: auto;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     margin: 0;
+ }
+ 
+ .design-container {
+     width: fit-content;
+ }
+ .design-container img {
+     height: 300px;
+     padding: 10px 10px;
+     
+ }
+ 
+ .team img{
+     height: 300px;
+    padding-top: 0;
+    margin-top: 0;
+    flex-wrap: wrap;
+    margin: 0 30px;
+    padding-bottom: 50px;
+ }
+ 
+ .our-team h2 {
+     color: black;
+     padding-top: 70px;
+     font-size: 50px;
+     
+ }
+ 
+ .our-team h3 {
+   font-weight: bold;
+   font-size: 35px;
+   
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ .team {
+     padding-top: 5px;
+     display: inline-flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ 
+ .our-team {
+     background-color: aqua;
+     height: 70%;
+     bottom: 25px;
+ }
+ 
+ .our-team p {
+     color: black;
+ }
+ 
+ footer {
+     text-align: center;
+     justify-content: center;
+ }
